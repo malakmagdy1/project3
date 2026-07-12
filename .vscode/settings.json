@@ -1,0 +1,29 @@
+{
+  // Turn on Emmet + class suggestions inside HTML
+  "editor.quickSuggestions": {
+    "strings": true,
+    "other": true,
+    "comments": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggest.showWords": true,
+
+  // Tailwind CSS IntelliSense
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    "class\\s*=\\s*[\"']([^\"']*)[\"']"
+  ],
+
+  // Suggest class names as you type inside class="..."
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "css.validate": true,
+  "html.suggest.html5": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  }
+}
