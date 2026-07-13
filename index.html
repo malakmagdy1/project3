@@ -8,67 +8,52 @@
 </head>
 
 <body>
-  <header class="flex items-center justify-around bg-cyan-700 text-white p-6 fixed top-0 w-full z-50">
-    <h2>Ocean Life</h2>
-    <div>
-      <h4>marine aquarium</h4>
+  <header class="ocean-header fixed top-0 w-full z-50">
+    <div class="header-inner">
+      <div class="header-brand">
+        <h2>Ocean Life</h2>
+        <h4>Marine Aquarium</h4>
+      </div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Species</li>
+          <li>Our Reef</li>
+          <li>Our Divers</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+      <button>Book a Dive</button>
     </div>
-    <div>
-      <ul class="flex items-center justify-center gap-12 p-5 rounded-lg">
-        <li class="hover:text-black">Home</li>
-        <li class="hover:text-black">Species</li>
-        <li class="hover:text-black">Our Reef</li>
-        <li class="hover:text-black">Our Divers</li>
-        <li class="hover:text-black">Contact Us</li>
-      </ul>
-    </div>
-    <button class="hover:shadow-2xl  bg-sky-300 rounded-md p-3 ">Book a Dive</button>
   </header>
   <screen1>
-    <parent class="flex items-center justify-around gap-12 p-12 bg-cyan-50 min-h-screen">
-      <div class="flex flex-col gap-6">
-        <h2>we bring the ocean's beauty into your world</h2>
-        <p>
-          we care for tropical fish and living coral reefs, helping the sea
-          stay healthy and full of colorful marine life for everyone
+    <parent class="hero-section">
+      <div class="hero-content">
+        <h2>We Bring the <span>Ocean's Beauty</span><br>Into Your World</h2>
+        <p class="hero-description">
+          We care for tropical fish and living coral reefs, helping the sea
+          stay healthy and full of colorful marine life for everyone.
         </p>
-        <div class="flex flex-row gap-6">
 
-          <div class="flex flex-row gap-2 items-center">
-            <div class="border-2 bg-teal-500 p-1 rounded-full">
-              <i class="fa-solid fa-check "></i>
-            </div>
-            <p>200+ fish species</p>
-          </div>
-          <div class="flex flex-row gap-2 items-center">
-            <div class="border-2 bg-teal-500 p-1 rounded-full">
-              <i class="fa-solid fa-check "></i>
-            </div>
-            <p>50+ coral reefs</p>
-          </div>
-          <div class="flex flex-row gap-2 items-center">
-            <div class="border-2 bg-teal-500 p-1 rounded-full">
-              <i class="fa-solid fa-check "></i>
-            </div>
-            <p>10+ years diving</p>
-          </div>
+        <div class="hero-features">
+          <div><i class="fa-solid fa-check"></i><p>200+ Fish Species</p></div>
+          <div><i class="fa-solid fa-check"></i><p>50+ Coral Reefs</p></div>
+          <div><i class="fa-solid fa-check"></i><p>10+ Years Diving</p></div>
         </div>
-        <div>
-          <button class="border-2 bg-cyan-600 text-white p-3 rounded-lg hover:shadow-2xl">explore the deep now</button>
-          <button class="border-2 border-teal-500 p-3 rounded-lg hover:border-black hover:text-white"><i
-              class="fa-solid fa-play"></i> watch the
-            video</button>
+
+        <div class="hero-actions">
+          <button class="hero-primary">Explore the Deep Now</button>
+          <button class="hero-secondary"><i class="fa-solid fa-play"></i> Watch the Video</button>
         </div>
       </div>
 
-      <div class="flex flex-col gap-6 bg-cyan-700 p-6 rounded-lg relative">
-        <img src="images/fish-hero.jpg" class="rounded-2xl w-full" alt="" />
-        <div class="flex absolute bottom-4 left-4 bg-teal-600 text-white p-2 rounded-lg">
-          <i class="fa-solid fa-users"></i>
-
+      <div class="hero-visual">
+        <img src="images/fish-hero.jpg" alt="Colorful tropical fish swimming around a coral reef" />
+        <div class="diver-card">
+          <div class="diver-icon"><i class="fa-solid fa-users"></i></div>
           <div>
-            <p>happy divers</p>
-            <p>+500</p>
+            <p>Happy Divers</p>
+            <strong>+500</strong>
           </div>
         </div>
       </div>
@@ -76,7 +61,7 @@
   </screen1>
 
   <screen2>
-    <section class="h-500 bg-cyan-600 justify-center items-center flex flex-col gap-4">
+    <section class="h-500  bg-sky-50 justify-center items-center flex flex-col gap-4">
       <h2>Our Marine Services</h2>
       <p>
         We offer a full range of ocean care to keep your fish and reefs
@@ -84,7 +69,7 @@
       </p>
       <div class="w-20 min-auto border-white h-1 bg-teal-500 rounded-lg"></div>
       </div>
-      <section class="flex items-center justify-around gap-12 p-12 bg-sky-50">
+      <section class="flex items-center justify-around gap-12 p-12">
         <div
           class="flex flex-col gap-3 bg-white p-6 rounded-lg w-1/3 hover:border-teal-500 hover:shadow-2xl border-black  border-2 group hover:scale-105 ">
           <div
@@ -177,7 +162,7 @@
   </screen2>
 
   <screen3>
-    <section class="flex justify-around items-center bg-gradient-to-r from-teal-500 to-blue-700 text-white h-1/4">
+    <section class="flex justify-around items-center bg-gradient-to-r from-teal-500 to-blue-700 text-white h-1/4 font-semibold pl-10 pr-10">
       <div class="flex flex-col">
         <h2>+500</h2>
         <h3>
