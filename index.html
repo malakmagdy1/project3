@@ -8,21 +8,23 @@
 </head>
 
 <body class="text-lg">
-  <header class="flex items-center justify-around bg-cyan-700 text-white p-6 fixed top-0 w-full z-50">
-    <h2 class="text-3xl font-bold">Ocean Life</h2>
-    <div>
-      <h4 class="text-lg font-semibold">marine aquarium</h4>
+  <header class="fixed top-0 w-full z-50 bg-white border-t-[7px] border-[#5b3b34] shadow-md text-slate-700">
+    <div class="max-w-[1504px] h-[74px] mx-auto px-8 flex items-center justify-between">
+      <div class="flex items-center gap-2.5 whitespace-nowrap">
+        <h2 class="text-3xl font-extrabold tracking-tight text-blue-600">Ocean Life</h2>
+        <h4 class="text-xs font-medium text-blue-600 bg-blue-100 px-2.5 py-1 rounded-full">marine aquarium</h4>
+      </div>
+      <nav>
+        <ul class="flex items-center justify-center gap-8 text-base font-semibold">
+          <li class="hover:text-blue-600 cursor-pointer transition-colors">Home</li>
+          <li class="hover:text-blue-600 cursor-pointer transition-colors">Species</li>
+          <li class="hover:text-blue-600 cursor-pointer transition-colors">Our Reef</li>
+          <li class="hover:text-blue-600 cursor-pointer transition-colors">Our Divers</li>
+          <li class="hover:text-blue-600 cursor-pointer transition-colors">Contact Us</li>
+        </ul>
+      </nav>
+      <button class="min-w-[184px] bg-blue-600 hover:bg-blue-700 text-white text-base font-bold px-6 py-3 rounded-lg shadow-md transition-colors">Book a Dive</button>
     </div>
-    <div>
-      <ul class="flex items-center justify-center gap-12 p-5 rounded-lg text-lg font-semibold">
-        <li class="hover:text-black">Home</li>
-        <li class="hover:text-black">Species</li>
-        <li class="hover:text-black">Our Reef</li>
-        <li class="hover:text-black">Our Divers</li>
-        <li class="hover:text-black">Contact Us</li>
-      </ul>
-    </div>
-    <button class="hover:shadow-2xl bg-sky-300 rounded-md p-3 text-lg font-semibold">Book a Dive</button>
   </header>
   <screen1>
     <parent class="flex items-center justify-around gap-12 p-12 bg-cyan-50 min-h-screen">
